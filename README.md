@@ -11,12 +11,15 @@ In this file, [Extract-Transform_final_code](https://github.com/Judyhm2/SQL/blob
 The results are in input and output 58 from the above mentioned file. Finally for this deliverable, the backers_df Dataframe was exprted [into backer_info](https://github.com/Judyhm2/SQL/blob/main/Crowdfunding-ETL/backer_info.csv) as an cvs file
 
 ## Deliverable 2: Transform and Clean Data
-The "cf_id" column was converted to int64. This can be seen in Out[63] in Extract-Transform_final_code.
+The "cf_id" column was converted to int64. This can be seen in Out[63] in [Extract-Transform_final_code](https://github.com/Judyhm2/SQL/blob/main/Crowdfunding-ETL/Extract-Transform_final_code.ipynb).
 Then the "name" column is split into the "first_name" and the "last_name" columns that are added to In[64] of the aformentioned file.
 The "name" column is dropped from the DataFrame in In[66] and reflected in Out[66]. Then the columns are reordered and executed in the same Input and Output [66].
-Deliverable 3: Create an ERD and a Table Schema and Load the Data
+
+## Deliverable 3: Create an ERD and a Table Schema and Load the Data
 The crowdfunding_db relationship diagram has five tables, and can be seen as image
-crowdfunding_db_relationships.png..
+crowdfunding_db_relationships.png.
+![](https://github.com/Judyhm2/SQL/blob/main/Crowdfunding-ETL/Deliverable%203.png)
+![](https://github.com/Judyhm2/SQL/blob/main/Crowdfunding-ETL/Deliverable%203a.png)
 
 The crowdfunding_db_schema.sql file contains the table schema and the ALTER TABLE statement for each of the five tables. The five tables are campaign, category, subcategorty, contracts and backers. The alt table consists of foreign keys which connects the tables subcategory_id, category_id, contract_id and cf_id, respectively to the above mentioned tables.
 
