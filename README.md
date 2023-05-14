@@ -23,12 +23,12 @@ The "name" column is dropped from the DataFrame in In[66] and reflected in Out[6
 - The [backers.csv](#) file. This image illustrates the code that is imported into backers csv file. 
 
 ## Deliverable 4: SQL Analysis—Bonus
-The first SQL query was written and successfully executes the number of backer_counts in descending order for each cf_id and for all the live campaigns. To view this query please visit Analysis-Bonus file.
+- The first SQL query was written and successfully executes the number of backer_counts in descending order for each cf_id and for all the live campaigns. To view this query please visit Analysis-Bonus file.
 
-The second SQL query was written and retrieves sucessfully the number of backers in descending order for each cf_id from the backers table. This can be view in the same file above.
+- The second SQL query was written and retrieves sucessfully the number of backers in descending order for each cf_id from the backers table. This can be view in the same file above.
 
-The third SQL query was written and produced the table "contacts_live" to create the email_contacts_remaining_goal_amount table, and the table was exported into email_contacts_remaining_goal_amount.csv.The following image illustrtes the running of the table in PostgresSQL 
+- The third SQL query was written and produced the table "contacts_live" to create the email_contacts_remaining_goal_amount table, and the table was exported into email_contacts_remaining_goal_amount.csv.The following image illustrtes the running of the table in PostgresSQL 
 
-The fourth SQL query was written and then fully executed to create the email_backers_remaining_goal_amount table, and the table is exported into email_contacts_remaining_goal_amount.csv 
+- The fourth SQL query was written and then fully executed to create the email_backers_remaining_goal_amount table, and the table is exported into email_contacts_remaining_goal_amount.csv 
 
-Please note in order to copy or export a table from PostgresSQL I had to add permission to the folder in order for it to work. This can be seen in the final code of the Analysis-Bonus file.
+- Please note in order to copy or export a table from PostgresSQL I had to add permission to the folder in order for it to work. This can be seen in the final code of the Analysis-Bonus file.
