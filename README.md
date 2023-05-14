@@ -16,14 +16,12 @@ Then the "name" column is split into the "first_name" and the "last_name" column
 The "name" column is dropped from the DataFrame in In[66] and reflected in Out[66]. Then the columns are reordered and executed in the same Input and Output [66].
 
 ## Deliverable 3: Create an ERD and a Table Schema and Load the Data
-The crowdfunding_db relationship diagram has five tables, and can be seen as image
-crowdfunding_db_relationships.png.
-![](https://github.com/Judyhm2/SQL/blob/main/Crowdfunding-ETL/Deliverable%203.png)
-![](https://github.com/Judyhm2/SQL/blob/main/Crowdfunding-ETL/Deliverable%203a.png)
+- The crowdfunding_db relationship diagram has five tables, and can be seen as image
+- ![](https://github.com/Judyhm2/SQL/blob/main/Crowdfunding-ETL/crowdfunding_db_relationships.png)
 
-The crowdfunding_db_schema.sql file contains the table schema and the ALTER TABLE statement for each of the five tables. The five tables are campaign, category, subcategorty, contracts and backers. The alt table consists of foreign keys which connects the tables subcategory_id, category_id, contract_id and cf_id, respectively to the above mentioned tables.
+- The [crowdfunding_db_schema.sql](#) file contains the table schema and the ALTER TABLE statement for each of the five tables. The five tables are campaign, category, subcategorty, contracts and backers. The alt table consists of foreign keys which connects the tables subcategory_id, category_id, contract_id and cf_id, respectively to the above mentioned tables.
 
-The backers.csv file. This image illustrates the code that is imported into backers csv file. 
+- The [backers.csv](#) file. This image illustrates the code that is imported into backers csv file. 
 
 ## Deliverable 4: SQL Analysis—Bonus
 The first SQL query was written and successfully executes the number of backer_counts in descending order for each cf_id and for all the live campaigns. To view this query please visit Analysis-Bonus file.
