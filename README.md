@@ -1,5 +1,4 @@
-# SQL
-## SQL and panadas
+# SQL and PHyton/Panadas
 ## Deliverable 1: Extract Data (Option 1)
 In this file, [Extract-Transform_final_code](https://github.com/Judyhm2/SQL/blob/main/Crowdfunding-ETL/Extract-Transform_final_code.ipynb) shows all the coding input and output for deliverable 1. The following was done: backers_info was imported as a Dataframe backers_master_df. Then I used a for loop to iterate through backers_master_df to print off the list of values for each row and was placed into a dictionary. A backers_df DataFrame was created with
 
@@ -17,10 +16,10 @@ The "name" column is dropped from the DataFrame in In[66] and reflected in Out[6
 
 ## Deliverable 3: Create an ERD and a Table Schema and Load the Data
 - The crowdfunding_db relationship diagram has five tables, and can be seen as image
-- ![](https://github.com/Judyhm2/SQL/blob/main/Crowdfunding-ETL/crowdfunding_db_relationships.png)
+![](https://github.com/Judyhm2/SQL/blob/main/Crowdfunding-ETL/crowdfunding_db_relationships.png)
 
 - The [crowdfunding_db_schema.sql](#) file contains the table schema and the ALTER TABLE statement for each of the five tables. The five tables are campaign, category, subcategorty, contracts and backers. The alt table consists of foreign keys which connects the tables subcategory_id, category_id, contract_id and cf_id, respectively to the above mentioned tables.
-
+![](https://github.com/Judyhm2/SQL/blob/main/Crowdfunding-ETL/Deliverable%203a.png)
 - The [backers.csv](#) file. This image illustrates the code that is imported into backers csv file. 
 
 ## Deliverable 4: SQL Analysis—Bonus
