@@ -1,14 +1,14 @@
 # SQL
 ## SQL and panadas
 ## Deliverable 1: Extract Data (Option 1)
-In this file, [Extract-Transform_final_code](#) shows all the coding input and output for deliverable 1. The following was done: backers_info was imported as a Dataframe backers_master_df. Then I used a for loop to iterate through backers_master_df to print off the list of values for each row and was placed into a dictionary. A backers_df DataFrame was created with
+In this file, [Extract-Transform_final_code](https://github.com/Judyhm2/SQL/blob/main/Crowdfunding-ETL/Extract-Transform_final_code.ipynb) shows all the coding input and output for deliverable 1. The following was done: backers_info was imported as a Dataframe backers_master_df. Then I used a for loop to iterate through backers_master_df to print off the list of values for each row and was placed into a dictionary. A backers_df DataFrame was created with
 
 - the 'backer_id'
 - 'cf_id'
 - 'name' and
 - 'email' as columns.
 
-The results are in input and output 58 from the above mentioned file. Finally for this deliverable, the backers_df Dataframe was exprted into backer_info as an cvs file
+The results are in input and output 58 from the above mentioned file. Finally for this deliverable, the backers_df Dataframe was exprted [into backer_info](https://github.com/Judyhm2/SQL/blob/main/Crowdfunding-ETL/backer_info.csv) as an cvs file
 
 ## Deliverable 2: Transform and Clean Data
 The "cf_id" column was converted to int64. This can be seen in Out[63] in Extract-Transform_final_code.
